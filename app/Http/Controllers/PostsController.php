@@ -16,5 +16,5 @@ class PostsController extends Controller
     //dd($request);
   return redirect()->route('home');
   }
-    //
+
 }

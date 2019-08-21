@@ -4,6 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+          <a href="/user">ユーザー一覧</a>
             <div class="card">
                 <div class="card-header">Dashboard</div>
 
@@ -29,6 +30,10 @@
               >
               <button type ='submit'>まだですか</button>
             </form>
+            @foreach($post as $i)
+            <h1>{{ $i->title}}</h1>
+            <h2>{{$i->body}}</h2>
+            @endforeach
         </div>
     </div>
 </div>

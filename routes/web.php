@@ -27,3 +27,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::post('add','PostsController@store');
+
+route::get('user','UserController@users_all');
