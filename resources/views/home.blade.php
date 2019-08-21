@@ -17,6 +17,18 @@
                     You are logged in!
                 </div>
             </div>
+            <form action="add" method="post">
+              @csrf
+              <input
+              name = 'title'
+              type ='text'
+              >
+              <input
+              name = 'body'
+              type = 'text'
+              >
+              <button type ='submit'>まだですか</button>
+            </form>
         </div>
     </div>
 </div>
